@@ -1,0 +1,734 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "fb2081bc-6ef6-41cf-948d-aa1a92d1c26a",
+  "location" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic",
+  "last-sequence-number" : 6,
+  "last-updated-ms" : 1721666490074,
+  "last-column-id" : 20,
+  "current-schema-id" : 6,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "Age",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 2,
+      "name" : "Cabin",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "Embarked",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "Fare",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 5,
+      "name" : "Name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "Parch",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 7,
+      "name" : "PassengerId",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 8,
+      "name" : "Pclass",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 9,
+      "name" : "Sex",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "SibSp",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 11,
+      "name" : "Survived",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 12,
+      "name" : "Ticket",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "Title",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "Family_Size",
+      "required" : false,
+      "type" : "int"
+    } ]
+  }, {
+    "type" : "struct",
+    "schema-id" : 1,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "Age",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 2,
+      "name" : "Cabin",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "Embarked",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "Fare",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 5,
+      "name" : "Name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "Parch",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 7,
+      "name" : "PassengerId",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 8,
+      "name" : "Pclass",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 9,
+      "name" : "Sex",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "SibSp",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 11,
+      "name" : "Survived",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 12,
+      "name" : "Ticket",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "Title",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "Family_Size",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 15,
+      "name" : "choose_a_column",
+      "required" : false,
+      "type" : "string"
+    } ]
+  }, {
+    "type" : "struct",
+    "schema-id" : 2,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "Age",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 2,
+      "name" : "Cabin",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "Embarked",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "Fare",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 5,
+      "name" : "Name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "Parch",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 7,
+      "name" : "PassengerId",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 8,
+      "name" : "Pclass",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 9,
+      "name" : "Sex",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "SibSp",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 11,
+      "name" : "Survived",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 12,
+      "name" : "Ticket",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "Title",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "Family_Size",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 16,
+      "name" : "choose_a_column",
+      "required" : false,
+      "type" : "string"
+    } ]
+  }, {
+    "type" : "struct",
+    "schema-id" : 3,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "Age",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 2,
+      "name" : "Cabin",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "Embarked",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "Fare",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 5,
+      "name" : "Name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "Parch",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 7,
+      "name" : "PassengerId",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 8,
+      "name" : "Pclass",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 9,
+      "name" : "Sex",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "SibSp",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 11,
+      "name" : "Survived",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 12,
+      "name" : "Ticket",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "Title",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "Family_Size",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 16,
+      "name" : "choose_a_column",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 17,
+      "name" : "new_col",
+      "required" : false,
+      "type" : "string"
+    } ]
+  }, {
+    "type" : "struct",
+    "schema-id" : 4,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "Age",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 2,
+      "name" : "Cabin",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "Embarked",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "Fare",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 5,
+      "name" : "Name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "Parch",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 7,
+      "name" : "PassengerId",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 8,
+      "name" : "Pclass",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 9,
+      "name" : "Sex",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "SibSp",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 11,
+      "name" : "Survived",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 12,
+      "name" : "Ticket",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "Title",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "Family_Size",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 16,
+      "name" : "choose_a_column",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 18,
+      "name" : "new_col",
+      "required" : false,
+      "type" : "string"
+    } ]
+  }, {
+    "type" : "struct",
+    "schema-id" : 5,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "Age",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 2,
+      "name" : "Cabin",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "Embarked",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "Fare",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 5,
+      "name" : "Name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "Parch",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 7,
+      "name" : "PassengerId",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 8,
+      "name" : "Pclass",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 9,
+      "name" : "Sex",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "SibSp",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 11,
+      "name" : "Survived",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 12,
+      "name" : "Ticket",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "Title",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "Family_Size",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 16,
+      "name" : "choose_a_column",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 19,
+      "name" : "new_col",
+      "required" : false,
+      "type" : "string"
+    } ]
+  }, {
+    "type" : "struct",
+    "schema-id" : 6,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "Age",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 2,
+      "name" : "Cabin",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "Embarked",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "Fare",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 5,
+      "name" : "Name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "Parch",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 7,
+      "name" : "PassengerId",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 8,
+      "name" : "Pclass",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 9,
+      "name" : "Sex",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "SibSp",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 11,
+      "name" : "Survived",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 12,
+      "name" : "Ticket",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "Title",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "Family_Size",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 16,
+      "name" : "choose_a_column",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 20,
+      "name" : "new_col",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "france.cama",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 6609739537041086161,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 6609739537041086161,
+      "type" : "branch"
+    },
+    "yearly_snapshots_10y" : {
+      "snapshot-id" : 6609739537041086161,
+      "type" : "branch",
+      "min-snapshots-to-keep" : 10,
+      "max-ref-age-ms" : 315360000000
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 3,
+    "snapshot-id" : 6609739537041086161,
+    "parent-snapshot-id" : 1184812391625634863,
+    "timestamp-ms" : 1721639494914,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1721639179754",
+      "added-data-files" : "1",
+      "added-records" : "1",
+      "added-files-size" : "3856",
+      "changed-partition-count" : "1",
+      "total-records" : "1311",
+      "total-files-size" : "43940",
+      "total-data-files" : "3",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/snap-6609739537041086161-1-89030df2-ce9e-443e-9a21-24c8a88e450e.avro",
+    "schema-id" : 3
+  }, {
+    "sequence-number" : 6,
+    "snapshot-id" : 2309543119036033141,
+    "parent-snapshot-id" : 6609739537041086161,
+    "timestamp-ms" : 1721643775057,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1721643772537",
+      "added-data-files" : "1",
+      "added-records" : "1",
+      "added-files-size" : "3856",
+      "changed-partition-count" : "1",
+      "total-records" : "1312",
+      "total-files-size" : "47796",
+      "total-data-files" : "4",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/snap-2309543119036033141-1-be6066e5-09b6-4369-8b3c-30f267d5b679.avro",
+    "schema-id" : 6
+  } ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1721641667639,
+    "snapshot-id" : 6609739537041086161
+  }, {
+    "timestamp-ms" : 1721643775057,
+    "snapshot-id" : 2309543119036033141
+  }, {
+    "timestamp-ms" : 1721643794103,
+    "snapshot-id" : 6609739537041086161
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1721639397938,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v1.metadata.json"
+  }, {
+    "timestamp-ms" : 1721639412769,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v2.metadata.json"
+  }, {
+    "timestamp-ms" : 1721639424940,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v3.metadata.json"
+  }, {
+    "timestamp-ms" : 1721639424967,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v4.metadata.json"
+  }, {
+    "timestamp-ms" : 1721639425086,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v5.metadata.json"
+  }, {
+    "timestamp-ms" : 1721639494798,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v6.metadata.json"
+  }, {
+    "timestamp-ms" : 1721639494914,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v7.metadata.json"
+  }, {
+    "timestamp-ms" : 1721639498966,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v8.metadata.json"
+  }, {
+    "timestamp-ms" : 1721639498992,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v9.metadata.json"
+  }, {
+    "timestamp-ms" : 1721639499082,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v10.metadata.json"
+  }, {
+    "timestamp-ms" : 1721639508903,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v11.metadata.json"
+  }, {
+    "timestamp-ms" : 1721639508926,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v12.metadata.json"
+  }, {
+    "timestamp-ms" : 1721639509022,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v13.metadata.json"
+  }, {
+    "timestamp-ms" : 1721641667639,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v14.metadata.json"
+  }, {
+    "timestamp-ms" : 1721643773562,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v15.metadata.json"
+  }, {
+    "timestamp-ms" : 1721643773608,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v16.metadata.json"
+  }, {
+    "timestamp-ms" : 1721643775057,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v17.metadata.json"
+  }, {
+    "timestamp-ms" : 1721643794103,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v18.metadata.json"
+  }, {
+    "timestamp-ms" : 1721663865613,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v19.metadata.json"
+  }, {
+    "timestamp-ms" : 1721663910327,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v20.metadata.json"
+  }, {
+    "timestamp-ms" : 1721665801453,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v21.metadata.json"
+  }, {
+    "timestamp-ms" : 1721666173482,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v22.metadata.json"
+  }, {
+    "timestamp-ms" : 1721666174945,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v23.metadata.json"
+  }, {
+    "timestamp-ms" : 1721666174966,
+    "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v24.metadata.json"
+  } ]
+}

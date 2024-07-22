@@ -2,4 +2,6 @@
 .venv
 .idea
 .DS_Store
-
+iceberg_tables/default/table_example
+.ipynb_checkpoints
+app/example.py
