@@ -1,11 +1,11 @@
 {
   "format-version" : 2,
-  "table-uuid" : "915af955-7f31-40c3-82dd-a87f3e9b9dae",
+  "table-uuid" : "fb2081bc-6ef6-41cf-948d-aa1a92d1c26a",
   "location" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic",
-  "last-sequence-number" : 4,
-  "last-updated-ms" : 1714219789637,
+  "last-sequence-number" : 5,
+  "last-updated-ms" : 1721639509022,
   "last-column-id" : 19,
-  "current-schema-id" : 1,
+  "current-schema-id" : 5,
   "schemas" : [ {
     "type" : "struct",
     "schema-id" : 0,
@@ -155,7 +155,7 @@
       "type" : "int"
     }, {
       "id" : 15,
-      "name" : "new_column",
+      "name" : "choose_a_column",
       "required" : false,
       "type" : "string"
     } ]
@@ -232,11 +232,6 @@
       "name" : "Family_Size",
       "required" : false,
       "type" : "int"
-    }, {
-      "id" : 15,
-      "name" : "new_column",
-      "required" : false,
-      "type" : "string"
     }, {
       "id" : 16,
       "name" : "choose_a_column",
@@ -317,13 +312,13 @@
       "required" : false,
       "type" : "int"
     }, {
-      "id" : 15,
-      "name" : "new_column",
+      "id" : 16,
+      "name" : "choose_a_column",
       "required" : false,
       "type" : "string"
     }, {
       "id" : 17,
-      "name" : "choose_a_column",
+      "name" : "new_col",
       "required" : false,
       "type" : "string"
     } ]
@@ -401,13 +396,13 @@
       "required" : false,
       "type" : "int"
     }, {
-      "id" : 15,
-      "name" : "new_column",
+      "id" : 16,
+      "name" : "choose_a_column",
       "required" : false,
       "type" : "string"
     }, {
       "id" : 18,
-      "name" : "choose_a_column",
+      "name" : "new_col",
       "required" : false,
       "type" : "string"
     } ]
@@ -485,13 +480,13 @@
       "required" : false,
       "type" : "int"
     }, {
-      "id" : 15,
-      "name" : "new_column",
+      "id" : 16,
+      "name" : "choose_a_column",
       "required" : false,
       "type" : "string"
     }, {
       "id" : 19,
-      "name" : "choose_a_column",
+      "name" : "new_col",
       "required" : false,
       "type" : "string"
     } ]
@@ -511,20 +506,20 @@
     "owner" : "france.cama",
     "write.parquet.compression-codec" : "zstd"
   },
-  "current-snapshot-id" : 3663590870506627609,
+  "current-snapshot-id" : 1759033321787871743,
   "refs" : {
     "main" : {
-      "snapshot-id" : 3663590870506627609,
+      "snapshot-id" : 1759033321787871743,
       "type" : "branch"
     }
   },
   "snapshots" : [ {
     "sequence-number" : 1,
-    "snapshot-id" : 2195253128215160933,
-    "timestamp-ms" : 1714206986351,
+    "snapshot-id" : 4619981039604578990,
+    "timestamp-ms" : 1721639397938,
     "summary" : {
       "operation" : "append",
-      "spark.app.id" : "local-1714206983276",
+      "spark.app.id" : "local-1721639394725",
       "added-data-files" : "1",
       "added-records" : "1309",
       "added-files-size" : "36473",
@@ -536,122 +531,146 @@
       "total-position-deletes" : "0",
       "total-equality-deletes" : "0"
     },
-    "manifest-list" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/snap-2195253128215160933-1-860caaf3-c63b-4369-bd89-da8e67a445b9.avro",
+    "manifest-list" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/snap-4619981039604578990-1-b361d4fb-2672-4dcb-a306-c9c6637baf0b.avro",
     "schema-id" : 0
   }, {
     "sequence-number" : 2,
-    "snapshot-id" : 9220030009765536769,
-    "parent-snapshot-id" : 2195253128215160933,
-    "timestamp-ms" : 1714207059517,
+    "snapshot-id" : 1184812391625634863,
+    "parent-snapshot-id" : 4619981039604578990,
+    "timestamp-ms" : 1721639425086,
     "summary" : {
       "operation" : "append",
-      "spark.app.id" : "local-1714207056499",
+      "spark.app.id" : "local-1721639179754",
       "added-data-files" : "1",
-      "added-records" : "1309",
-      "added-files-size" : "36473",
+      "added-records" : "1",
+      "added-files-size" : "3611",
       "changed-partition-count" : "1",
-      "total-records" : "2618",
-      "total-files-size" : "72946",
+      "total-records" : "1310",
+      "total-files-size" : "40084",
       "total-data-files" : "2",
       "total-delete-files" : "0",
       "total-position-deletes" : "0",
       "total-equality-deletes" : "0"
     },
-    "manifest-list" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/snap-9220030009765536769-1-a2f3377c-7d85-4a2e-922f-0525ef56776f.avro",
-    "schema-id" : 0
+    "manifest-list" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/snap-1184812391625634863-1-7260c532-86fd-4f15-9a35-956c3e3f0e2c.avro",
+    "schema-id" : 2
   }, {
     "sequence-number" : 3,
-    "snapshot-id" : 922663229200831164,
-    "parent-snapshot-id" : 9220030009765536769,
-    "timestamp-ms" : 1714217310976,
+    "snapshot-id" : 6609739537041086161,
+    "parent-snapshot-id" : 1184812391625634863,
+    "timestamp-ms" : 1721639494914,
     "summary" : {
       "operation" : "append",
-      "spark.app.id" : "local-1714217307935",
+      "spark.app.id" : "local-1721639179754",
       "added-data-files" : "1",
-      "added-records" : "1309",
-      "added-files-size" : "36473",
+      "added-records" : "1",
+      "added-files-size" : "3856",
       "changed-partition-count" : "1",
-      "total-records" : "3927",
-      "total-files-size" : "109419",
+      "total-records" : "1311",
+      "total-files-size" : "43940",
       "total-data-files" : "3",
       "total-delete-files" : "0",
       "total-position-deletes" : "0",
       "total-equality-deletes" : "0"
     },
-    "manifest-list" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/snap-922663229200831164-1-477e4f34-3670-4526-a0cc-367b1b11fcb1.avro",
-    "schema-id" : 0
+    "manifest-list" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/snap-6609739537041086161-1-89030df2-ce9e-443e-9a21-24c8a88e450e.avro",
+    "schema-id" : 3
   }, {
     "sequence-number" : 4,
-    "snapshot-id" : 3663590870506627609,
-    "parent-snapshot-id" : 922663229200831164,
-    "timestamp-ms" : 1714217342702,
+    "snapshot-id" : 813399347516847428,
+    "parent-snapshot-id" : 6609739537041086161,
+    "timestamp-ms" : 1721639499082,
     "summary" : {
       "operation" : "append",
-      "spark.app.id" : "local-1714217339935",
+      "spark.app.id" : "local-1721639179754",
       "added-data-files" : "1",
-      "added-records" : "1309",
-      "added-files-size" : "36473",
+      "added-records" : "1",
+      "added-files-size" : "3856",
       "changed-partition-count" : "1",
-      "total-records" : "5236",
-      "total-files-size" : "145892",
+      "total-records" : "1312",
+      "total-files-size" : "47796",
       "total-data-files" : "4",
       "total-delete-files" : "0",
       "total-position-deletes" : "0",
       "total-equality-deletes" : "0"
     },
-    "manifest-list" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/snap-3663590870506627609-1-67fe10e6-699c-44f4-b735-e5af420010d2.avro",
-    "schema-id" : 0
+    "manifest-list" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/snap-813399347516847428-1-35227a11-c9b2-461d-8c51-d9c028fe4bef.avro",
+    "schema-id" : 4
+  }, {
+    "sequence-number" : 5,
+    "snapshot-id" : 1759033321787871743,
+    "parent-snapshot-id" : 813399347516847428,
+    "timestamp-ms" : 1721639509022,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1721639179754",
+      "added-data-files" : "1",
+      "added-records" : "1",
+      "added-files-size" : "3856",
+      "changed-partition-count" : "1",
+      "total-records" : "1313",
+      "total-files-size" : "51652",
+      "total-data-files" : "5",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/snap-1759033321787871743-1-be36365c-c651-446f-8885-56fda84e6681.avro",
+    "schema-id" : 5
   } ],
   "statistics" : [ ],
   "partition-statistics" : [ ],
   "snapshot-log" : [ {
-    "timestamp-ms" : 1714206986351,
-    "snapshot-id" : 2195253128215160933
+    "timestamp-ms" : 1721639397938,
+    "snapshot-id" : 4619981039604578990
   }, {
-    "timestamp-ms" : 1714207059517,
-    "snapshot-id" : 9220030009765536769
+    "timestamp-ms" : 1721639425086,
+    "snapshot-id" : 1184812391625634863
   }, {
-    "timestamp-ms" : 1714217310976,
-    "snapshot-id" : 922663229200831164
+    "timestamp-ms" : 1721639494914,
+    "snapshot-id" : 6609739537041086161
   }, {
-    "timestamp-ms" : 1714217342702,
-    "snapshot-id" : 3663590870506627609
+    "timestamp-ms" : 1721639499082,
+    "snapshot-id" : 813399347516847428
+  }, {
+    "timestamp-ms" : 1721639509022,
+    "snapshot-id" : 1759033321787871743
   } ],
   "metadata-log" : [ {
-    "timestamp-ms" : 1714206986351,
+    "timestamp-ms" : 1721639397938,
     "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v1.metadata.json"
   }, {
-    "timestamp-ms" : 1714207059517,
+    "timestamp-ms" : 1721639412769,
     "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v2.metadata.json"
   }, {
-    "timestamp-ms" : 1714217310976,
+    "timestamp-ms" : 1721639424940,
     "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v3.metadata.json"
   }, {
-    "timestamp-ms" : 1714217342702,
+    "timestamp-ms" : 1721639424967,
     "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v4.metadata.json"
   }, {
-    "timestamp-ms" : 1714219333061,
+    "timestamp-ms" : 1721639425086,
     "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v5.metadata.json"
   }, {
-    "timestamp-ms" : 1714219473165,
+    "timestamp-ms" : 1721639494798,
     "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v6.metadata.json"
   }, {
-    "timestamp-ms" : 1714219613505,
+    "timestamp-ms" : 1721639494914,
     "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v7.metadata.json"
   }, {
-    "timestamp-ms" : 1714219613554,
+    "timestamp-ms" : 1721639498966,
     "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v8.metadata.json"
   }, {
-    "timestamp-ms" : 1714219751613,
+    "timestamp-ms" : 1721639498992,
     "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v9.metadata.json"
   }, {
-    "timestamp-ms" : 1714219751644,
+    "timestamp-ms" : 1721639499082,
     "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v10.metadata.json"
   }, {
-    "timestamp-ms" : 1714219774868,
+    "timestamp-ms" : 1721639508903,
     "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v11.metadata.json"
   }, {
-    "timestamp-ms" : 1714219774901,
+    "timestamp-ms" : 1721639508926,
     "metadata-file" : "/Users/france.cama/code/iceberg-practice/iceberg_tables/default/titanic/metadata/v12.metadata.json"
   } ]
 }
