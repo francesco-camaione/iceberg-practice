@@ -23,3 +23,4 @@ df.write.format("iceberg").mode("append").saveAsTable("titanic")
 
 # Print the schema of the DataFrame
 df.printSchema()
+
